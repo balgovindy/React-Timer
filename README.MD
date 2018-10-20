@@ -15,7 +15,5 @@
 <img src="SS/SS3.png"/>
 <h3>On stop press </h3>
 <img src="SS/SS4.png"/>
-<h3>On resume press </h3>
-<img src="SS/SS3.png"/>
 <h3>On reset press or completion of time</h3>
 <img src="SS/SS1.png"/>
