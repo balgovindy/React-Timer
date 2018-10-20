@@ -1,0 +1,120 @@
+.display {
+  align-items: center;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  justify-content: center;
+  margin: auto;
+  width: 20rem
+}
+
+.display-label {
+  color: inherit;
+  font-size: 21px;
+  margin: 0 2.85rem;
+  border: none;
+}
+
+.display-time {
+  border: none;
+  color: #222;
+  font-size: 24px;
+  font-weight: 600;
+  outline-width: 0;
+  text-align: center;
+}
+
+.display-input-group {
+  padding: 0.4rem;
+}
+
+.display-time.display-hours {
+  border-right: none;
+}
+
+.display-time.display-minutes {
+  border-left: none;
+  border-right: none;
+}
+
+.display-time.display-seconds {
+  border-left: none;
+  border-right: none;
+}
+
+.display-time.display-milliseconds {
+  border-left: none;
+}
+
+.display-time.display-separator {
+  background: white;
+  border-left: none;
+  border-right: none;
+  padding-top: 0.59rem;
+}
+
+.display-time.form-control {
+  font-size: 28px;
+}
+
+.display-countdown-time {
+  color: #f3140cef;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: monospace
+}
+
+.display-countdown {
+  align-items: center;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  justify-content: center;
+  margin: auto;
+  width: 20rem;
+}
+
+.display-countdown-label {
+  border: none;
+  color: #999;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 1.43rem;
+  text-align: center;
+}
+
+.keypad {
+  margin: auto;
+  background-color: antiquewhite;
+  padding: 0.2rem;
+  height: 10rem;
+  width: 20rem;
+}
+
+.keypad-row {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 15.6rem;
+}
+
+.keypad-row>button {
+  margin: 0.2rem;
+  width: 100%;
+}
+
+.controls {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 20rem;
+}
+
+.controls>button {
+  border-radius: 0;
+  width: 100%;
+}
