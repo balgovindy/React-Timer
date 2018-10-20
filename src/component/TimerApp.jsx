@@ -106,6 +106,9 @@ class TimerApp extends React.Component {
 
   setMinutes(minutes) {
     this.setState((prevState) => {
+      if (prevState.minutes == 59) {
+        prevState.minutes = "00"
+      }
       minutes = parseInt(this.formateUnit(prevState.minutes + minutes));
       if (minutes > 59) {
         minutes = 59;
@@ -117,6 +120,9 @@ class TimerApp extends React.Component {
 
   setSeconds(seconds) {
     this.setState((prevState) => {
+      if (prevState.seconds == 59) {
+        prevState.seconds = "00"
+      }
       seconds = parseInt(this.formateUnit(prevState.seconds + seconds));
       if (seconds > 59) {
         seconds = 59;
