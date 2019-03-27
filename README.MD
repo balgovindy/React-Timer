@@ -5,7 +5,7 @@
 <p><b>npm start</b></p>
 
 
-<p>Enter input time with the help of kepad key.if you want to reset particular block press 'C' key and if you want to reset all just simply prss 'Reset' key only</P>
+<p>Enter input time with the help of kepad key.if you want to reset particular block press 'C' key and if you want to reset all just simply press 'Reset' key only</P>
 
 <h3>Normal UI</h3>
 <img src="SS/SS1.png"/>
