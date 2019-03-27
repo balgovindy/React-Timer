@@ -1,4 +1,4 @@
-<h1>React-Timer</h1>
+<a href="https://balgovindy.github.io/React-Timer/"><h1>React-Timer</h1></a>
 
 <h3>Fork the repository and do the following simple steps</h3>
 <p><b>npm install</b></p>
